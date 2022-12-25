@@ -6,6 +6,8 @@ body {
       justify-content: center;
       align-items: center;
       height: 100vh;
+      flex-direction: column;
+      gap: 20px;
     }
     
     .book {
@@ -47,7 +49,7 @@ body {
       content: "";
       background-image: url(./images/corgi.gif);
       background-repeat: no-repeat;
-      background-size: 50% 50%;
+      background-size: 35% 35%;
       background-position: center center;
       background-attachment: fixed;
       color: #eff0eb;
@@ -83,7 +85,7 @@ body {
       padding-left: 10px;
       padding-right: 10px;
     }
-    .page:hover .page__1, .page:active .page__1, .page:focus .page__1 {
+    .page:hover .page__1 {
       transform: rotateX(180deg);
       box-shadow: 1.5rem 2rem 3rem rgba(0, 0, 0, 0.25);
     }
