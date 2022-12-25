@@ -49,7 +49,7 @@ body {
       content: "";
       background-image: url(./images/corgi.gif);
       background-repeat: no-repeat;
-      background-size: 25% 35%;
+      background-size: 35% 25%;
       background-position: center center;
       background-attachment: fixed;
       color: #eff0eb;
